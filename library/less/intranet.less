@@ -1,0 +1,471 @@
+/********************* Colors *********************/
+
+@background-color: #f2f2f2;
+@base-color: #585b69;
+@sub-color: #7b8395;
+@hightlight-color: #6e9948;
+@primary-text-color: #666;
+@tab-color: #b7c1ce;
+@shark-color: #2c2c2d; // header color, footer color
+@link-border-color: #eee;
+@white: #fff;
+
+/********************* Spacing *********************/
+
+@content-padding: 15px;
+@margin-top: 30px;
+
+body {
+	background-color: @background-color;
+	padding-top: 0;
+}
+p {
+	color: @primary-text-color;
+}
+a, a:hover {
+	color: @base-color;
+}
+/********************* Header *********************/
+
+.fixed {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.navbar-static-top {
+
+	background-color: @base-color;
+
+	.navbar-header {
+
+		.navbar-brand {
+			transform: scale(0.8);
+		  	-ms-transform: scale(0.8);
+		  	-webkit-transform: scale(0.8);
+		  	-moz-transform: scale(0.8);
+		  	-o-transform: scale(0.8);
+		}
+
+		.navbar-form {
+			float: right;
+			position: relative;
+			top: 55px;
+			left: 345px;
+			width: 500px;
+
+			.form-inline {
+				width: auto;
+			}	
+		}
+	}
+
+	#menu-primary-menu {
+		a {
+			color: @white;
+			text-shadow: #666 1px 1px 1px;
+			letter-spacing: 0.3px;
+			font-weight: 300;
+		}
+		.dropdown-menu{
+			a {
+				&:hover, &:focus {
+					background-color: @base-color;
+				}
+			}
+		}
+			
+	}
+}
+/********************* Link Icons *********************/
+/*#menu-primary-menu {
+	.menu-item .fa {
+		float: right;
+		position: relative;
+	}
+}*/
+#menu-quick-links, #menu-popular-links {
+	.menu-item .fa {
+		float: right;
+		top: 15px;
+		position: relative;
+		color: @hightlight-color;
+	}
+}
+/********************* Sidebar *********************/
+
+#sidebar3 {
+	background-color: @white;
+	/*padding-top: 15px;*/
+	position: relative;
+	bottom: 30px;
+}
+.alert-info {
+	display: none;
+	visibility: hidden;
+}
+/********************* Widgets *********************/
+
+.widget, .widget_archive {
+
+	.widgettitle {
+		margin-top: @margin-top;
+		color: @shark-color;
+		text-transform: uppercase;
+	}
+
+	ul, ol {
+		list-style-type: none;
+		padding-left: 0;
+
+		li {
+			line-height: 40px;
+			border-bottom: @link-border-color 1px solid;
+		} 
+	}
+	.tribe-events-widget-link a {
+		font-weight: 300;
+	}
+	.btn {
+		display: block;
+		background-color: @hightlight-color;
+		color: @white;
+	}
+}
+
+/********************* Carousel *********************/
+
+.carousel {
+	box-shadow: #000 1px 2px 2px;
+	border: @white solid 4px;
+
+	.carousel-post-title {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+/********************* Tab Section *********************/
+
+.tab-section {
+	background-color: @white;
+
+	.nav-tabs {
+		position: relative;
+		margin-top: @margin-top;
+		width: 100%;
+
+		li {
+			width: 50%;
+			font-size: 18px;
+			text-transform: uppercase;
+			text-align: center;
+			
+
+			a, a:focus, a:hover {
+				background-color: lighten(@tab-color, 15%);
+				color: lighten(@shark-color, 30%);
+				margin-right: 0;
+				border: 0; 
+				border-radius: 0;
+			}
+		}
+
+		.active {
+				
+			a, a:focus, a:hover {
+				background-color: @tab-color;
+				color: @shark-color;
+			}
+		}
+		
+	}
+
+	.tab-content {
+		padding: @content-padding;
+
+		.announcements {
+			h3, a, p {
+				text-align: center;
+				color: @hightlight-color !important;
+			}
+			.cat-dept {
+				color: @shark-color;
+				font-style: uppercase;
+			}1
+		}
+		.top-stories{
+
+			h4 {
+				color: @shark-color;
+				text-align: center;
+			}
+		}
+
+		a.top-links {
+			text-align: right;
+			display: block;
+			color: @hightlight-color;
+		}
+	}
+}
+
+.page-template-page-departments {
+	.nav-tabs {
+		li {
+			width: 100%;
+		}
+	}
+}
+/********************* Blocks (white) behind content *********************/
+.content-block {
+	margin-top: @margin-top;
+	background-color: @white;
+	display: inline-block;
+	padding: @content-padding;
+	width: 100%;
+
+	h4 {
+		color: @shark-color;
+		text-transform: uppercase;
+	}
+
+	.links {
+		a {
+			line-height: 40px;
+			display: inline-block;
+			width: 100%;
+			border-bottom: @link-border-color 1px solid;
+
+			&:after {
+				font-family: FontAwesome;
+				content: "\f054";
+				margin-left: 10px;
+				float: right;
+				position: relative;
+				color: @hightlight-color;
+			}
+		}
+	}
+
+
+	.department-info {
+		line-height: 24px;
+		letter-spacing: 0.2px;
+		margin: 15px 5px;
+	}
+}
+.page-template-default {
+	.content-block {
+		margin-top: 0;
+	}
+}
+/********************* Page Header, Contact information on departments page *********************/
+.page-header {
+	margin-top: 5px;
+
+	h1 {
+		color: @shark-color;
+	}
+} 
+.contact-information {
+	display: inline-block;
+
+	.label {
+		/*padding: 8px;*/
+		margin: 10px 5px;
+
+		.fa {
+			color: @white;
+			/*font-size: 14px;
+			position: relative;
+			left: 2px;*/
+		}
+
+		/*.fa-phone, .fa-clock-o {
+			padding-right: 5px;
+			font-size: 17px;
+			top: 2px;
+		}
+
+		.fa-location-arrow {
+			font-size: 12px;
+			right: 8px;
+			padding-right: 4px;
+		}*/
+
+		.tooltip-inner {
+			max-width: 250px;
+			letter-spacing: 0.2px;
+			font-size: 14px;
+			font-weight: 400;
+			background-color: @shark-color;
+			border-radius: 4px;
+		}
+
+	}
+}
+.page-template-page-departments {
+	.page-header {
+		display: inline-block;
+		float: left;
+
+		.dept-title {
+			color: @shark-color;
+			font-size: 35px;
+		}
+	}
+}
+/********************* Images on page-homepage.php *********************/
+.image-center {
+	text-align: center;	
+
+	.main-image {
+		margin: 15px 0;
+		width: 100%;
+		height: 200px;
+		border: @shark-color solid 1px;
+		border-radius: 5px;
+
+		img {
+			max-width: 100%;
+		}
+	}
+
+	figcaption {
+		padding: 0 30px;
+	}
+}
+
+/********************* Clinical Resources *********************/
+#clinical-resources {
+	li.page-header {
+		list-style-type: none !important;
+		font-size: 20px;
+		font-weight: 400;
+		margin-top: 20px;
+	}
+	.listNavShow {
+		display: block;
+
+		li.page-header {
+			list-style-type: none !important;
+			list-style: none !important;
+		}
+	}
+}
+
+
+/********************* Footer *********************/
+.footer {
+	background-color: @shark-color;
+	padding: 20px 0;
+	margin-top: 50px;
+
+	p, a {
+		color: rgba(255,255,255,0.6);
+		letter-spacing: 0.3px
+	}
+
+	a {
+		padding-left: 20px;
+
+		&:hover {
+			color: rgba(255,255,255,1);
+		}
+	}
+	
+}
+@media (max-width: 1200px){
+	.navbar-static-top .navbar-header .navbar-form {
+		left: 245px;
+		width: 400px;
+	}
+}
+@media (min-width: 1200px){
+	#menu-primary-menu {
+		li a {
+			margin: 0 25px;
+		}
+	}
+}
+@media (max-width: 991px){
+	.navbar-static-top .navbar-header .navbar-form {
+		left: 130px;
+		width: 300px;
+	}
+	.nav li a {
+		font-size: 11px;
+	}
+}
+@media (max-width: 767px){
+	/********************* Navigation for all devices smaller than 767px *********************/
+	.navbar-brand {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		bottom: 20px;
+	}
+	.navbar-form {
+		top: 130px !important;
+		left: 0 !important;
+		right: 0;
+		width: 400px;
+		margin: auto auto;
+		position: absolute !important;
+	}
+	.navbar-toggle {
+		top: -150px;
+	}
+	.navbar-collapse {
+		.navbar-nav > .active > a, 
+		.navbar-nav > .active > a:hover, 
+		.navbar-nav > .active > a:focus {
+			background-color: @sub-color;
+		}
+		.navbar-nav > .open > a, 
+		.navbar-nav > .open > a:hover, 
+		.navbar-nav > .open > a:focus {
+			background-color: @tab-color;
+		}
+	}
+}
+@media (min-width: 767px){
+	/********************* Navigation for all devices larger than 767px *********************/
+	.navbar-collapse {
+		.navbar-nav > .active > a, 
+		.navbar-nav > .active > a:hover, 
+		.navbar-nav > .active > a:focus {
+			background-color: transparent !important;
+			/*border-bottom: @white solid 2px;*/
+			padding-bottom: 5px;
+		}
+	}
+
+	#menu-primary-menu {
+		background-color: @sub-color;
+		width: 100%;
+		text-align: center;
+		float: none;
+		clear: both;
+
+		li {
+			display: inline-block;
+			float: none;
+		}
+
+		.dropdown-menu {
+			background-color: @sub-color;
+			text-align: left;
+			
+			li {
+				text-align: left;
+				width: 100%;
+			}
+		}
+	}
+
+	ul.nav li.dropdown:hover ul.dropdown-menu {
+	 	display: block;    
+	}
+}
