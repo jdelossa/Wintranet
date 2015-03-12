@@ -55,7 +55,7 @@
 		   $(document).ready(function(){
 			   $(window).bind('scroll', function() {
 			   var navHeight = $( '.navbar-static-top' ).height();
-					 if ($(window).scrollTop() > navHeight) {
+					 if ($(window).scrollTop() > navHeight - 50) {
 						 $('.navbar-collapse').addClass('fixed');
 					 }
 					 else {

@@ -22,8 +22,11 @@ body {
 p {
 	color: @primary-text-color;
 }
+section a {
+	text-decoration: underline;
+}
 a, a:hover {
-	color: @base-color;
+	color: darken(@base-color, 10%);
 }
 /********************* Header *********************/
 
@@ -69,6 +72,7 @@ a, a:hover {
 		}
 		.dropdown-menu{
 			a {
+				margin: 0 !important;
 				&:hover, &:focus {
 					background-color: @base-color;
 				}
@@ -232,6 +236,7 @@ a, a:hover {
 
 	.links {
 		a {
+			text-decoration: none;
 			line-height: 40px;
 			display: inline-block;
 			width: 100%;
@@ -270,13 +275,17 @@ a, a:hover {
 } 
 .contact-information {
 	display: inline-block;
+	right: 0;
+	position: absolute;
+	top: 25px;
 
 	.label {
-		/*padding: 8px;*/
 		margin: 10px 5px;
+		padding: .6em .8em .6em;
 
 		.fa {
 			color: @white;
+			font-size: 13px;
 			/*font-size: 14px;
 			position: relative;
 			left: 2px;*/
@@ -354,8 +363,16 @@ a, a:hover {
 		}
 	}
 }
-
-
+/********************* RSS Feed *********************/
+.rssfeed {
+	li {
+		list-style-type: none;
+	}
+	li > a {
+		font-size: 20px;
+		text-decoration: none;
+	}
+}
 /********************* Footer *********************/
 .footer {
 	background-color: @shark-color;

@@ -6837,9 +6837,12 @@ body {
 p {
   color: #666666;
 }
+section a {
+  text-decoration: underline;
+}
 a,
 a:hover {
-  color: #307ba0;
+  color: #245d79;
 }
 /********************* Header *********************/
 .fixed {
@@ -6873,6 +6876,9 @@ a:hover {
   text-shadow: #666 1px 1px 1px;
   letter-spacing: 0.3px;
   font-weight: 300;
+}
+.navbar-static-top #menu-primary-menu .dropdown-menu a {
+  margin: 0 !important;
 }
 .navbar-static-top #menu-primary-menu .dropdown-menu a:hover,
 .navbar-static-top #menu-primary-menu .dropdown-menu a:focus {
@@ -7011,6 +7017,7 @@ a:hover {
   text-transform: uppercase;
 }
 .content-block .links a {
+  text-decoration: none;
   line-height: 40px;
   display: inline-block;
   width: 100%;
@@ -7041,10 +7048,13 @@ a:hover {
 }
 .contact-information {
   display: inline-block;
+  right: 0;
+  position: absolute;
+  top: 25px;
 }
 .contact-information .label {
-  /*padding: 8px;*/
   margin: 10px 5px;
+  padding: .6em .8em .6em;
   /*.fa-phone, .fa-clock-o {
 			padding-right: 5px;
 			font-size: 17px;
@@ -7059,6 +7069,7 @@ a:hover {
 }
 .contact-information .label .fa {
   color: #ffffff;
+  font-size: 13px;
   /*font-size: 14px;
 			position: relative;
 			left: 2px;*/
@@ -7109,6 +7120,14 @@ a:hover {
 #clinical-resources .listNavShow li.page-header {
   list-style-type: none !important;
   list-style: none !important;
+}
+/********************* RSS Feed *********************/
+.rssfeed li {
+  list-style-type: none;
+}
+.rssfeed li > a {
+  font-size: 20px;
+  text-decoration: none;
 }
 /********************* Footer *********************/
 .footer {
