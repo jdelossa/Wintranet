@@ -6839,7 +6839,7 @@ p {
 }
 a,
 a:hover {
-  color: #585b69;
+  color: #307ba0;
 }
 /********************* Header *********************/
 .fixed {
@@ -6849,7 +6849,7 @@ a:hover {
   top: 0;
 }
 .navbar-static-top {
-  background-color: #585b69;
+  background-color: #307ba0;
 }
 .navbar-static-top .navbar-header .navbar-brand {
   transform: scale(0.8);
@@ -6876,7 +6876,7 @@ a:hover {
 }
 .navbar-static-top #menu-primary-menu .dropdown-menu a:hover,
 .navbar-static-top #menu-primary-menu .dropdown-menu a:focus {
-  background-color: #585b69;
+  background-color: #307ba0;
 }
 /********************* Link Icons *********************/
 /*#menu-primary-menu {
@@ -6961,7 +6961,7 @@ a:hover {
 .tab-section .nav-tabs li a,
 .tab-section .nav-tabs li a:focus,
 .tab-section .nav-tabs li a:hover {
-  background-color: #e5e8ed;
+  background-color: #d1dce2;
   color: #78787a;
   margin-right: 0;
   border: 0;
@@ -6970,7 +6970,7 @@ a:hover {
 .tab-section .nav-tabs .active a,
 .tab-section .nav-tabs .active a:focus,
 .tab-section .nav-tabs .active a:hover {
-  background-color: #b7c1ce;
+  background-color: #a2b9c5;
   color: #2c2c2d;
 }
 .tab-section .tab-content {
@@ -7169,12 +7169,12 @@ a:hover {
   .navbar-collapse .navbar-nav > .active > a,
   .navbar-collapse .navbar-nav > .active > a:hover,
   .navbar-collapse .navbar-nav > .active > a:focus {
-    background-color: #7b8395;
+    background-color: #1f6588;
   }
   .navbar-collapse .navbar-nav > .open > a,
   .navbar-collapse .navbar-nav > .open > a:hover,
   .navbar-collapse .navbar-nav > .open > a:focus {
-    background-color: #b7c1ce;
+    background-color: #a2b9c5;
   }
 }
 @media (min-width: 767px) {
@@ -7187,7 +7187,7 @@ a:hover {
     padding-bottom: 5px;
   }
   #menu-primary-menu {
-    background-color: #7b8395;
+    background-color: #1f6588;
     width: 100%;
     text-align: center;
     float: none;
@@ -7198,7 +7198,7 @@ a:hover {
     float: none;
   }
   #menu-primary-menu .dropdown-menu {
-    background-color: #7b8395;
+    background-color: #1f6588;
     text-align: left;
   }
   #menu-primary-menu .dropdown-menu li {
