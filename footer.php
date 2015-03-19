@@ -43,9 +43,11 @@
 		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/jquery-listnav.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/tooltip.js"></script>
 		<script>
-			$('#clinical-resources').listnav({
-				filterSelector: '.page-header',
-				includeNums: false 
+			$(document).ready(function() {
+				$('#clinical-resources').listnav({
+					filterSelector: '.page-header',
+					includeNums: false 
+				});
 			});
 
 			$(document).ready(function() {
@@ -64,7 +66,7 @@
 				});
 			});
 
-		   $('.carousel').carousel()
+		   // $('.carousel').carousel()
 
 		</script>
 	</body>

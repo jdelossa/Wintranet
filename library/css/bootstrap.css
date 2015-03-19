@@ -7039,6 +7039,10 @@ a:hover {
 .page-template-default .content-block {
   margin-top: 0;
 }
+.hidden {
+  display: none;
+  visibility: hidden;
+}
 /********************* Page Header, Contact information on departments page *********************/
 .page-header {
   margin-top: 5px;

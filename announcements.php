@@ -26,7 +26,6 @@ $the_query = new WP_Query($args); ?>
 
            <?php if ( in_category( '56' ) ) : ?>
                 <div class="hidden"><?php the_category('56'); ?></div>
-            
             <?php endif; ?>
     </p>
 
