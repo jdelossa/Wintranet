@@ -1609,7 +1609,7 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #555555;
+  color: #cccccc;
   vertical-align: middle;
 }
 .form-control {
@@ -1619,7 +1619,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #555555;
+  color: #cccccc;
   vertical-align: middle;
   background-color: #ffffff;
   background-image: none;
@@ -3305,7 +3305,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #555555;
+  color: #cccccc;
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #cccccc;
@@ -3447,7 +3447,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #cccccc;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
@@ -6416,7 +6416,7 @@ fieldset[disabled] #cancel-comment-reply-link.active {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #555555;
+  color: #cccccc;
   vertical-align: middle;
   background-color: #ffffff;
   background-image: none;
@@ -6828,11 +6828,145 @@ blockquote.pull-left {
     padding-right: 0;
   }
 }
+#menu-primary-menu {
+  background-color: #ffffff;
+  padding: 30px;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#menu-primary-menu li {
+  float: none;
+  width: 25%;
+}
+#menu-primary-menu li .fa-chevron-right {
+  color: #bbbbbb;
+  float: right;
+  font-size: 10px;
+  position: relative;
+  top: 5px;
+}
+#menu-primary-menu li a {
+  background-color: #ffffff;
+}
+#menu-primary-menu .menu-active {
+  display: block !important;
+}
+#menu-primary-menu .navbar-nav {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  display: none;
+  height: 356px;
+  list-style-type: none;
+  margin-left: 23%;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+}
+#menu-primary-menu .navbar-nav li {
+  display: block;
+  float: left;
+  width: 50%;
+}
+#menu-primary-menu .navbar-nav li a {
+  background-color: transparent;
+  border-left: none;
+  color: #ffffff;
+  line-height: 25px;
+  font-weight: 500;
+  padding: 8px 30px 8px 10px;
+}
+#menu-primary-menu .navbar-nav li a:hover,
+#menu-primary-menu .navbar-nav li a:active,
+#menu-primary-menu .navbar-nav li a:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+#menu-primary-menu .navbar-nav .header {
+  color: #ffffff;
+  float: left;
+  font-size: 20px;
+  margin-top: 14px;
+  margin-bottom: -5px;
+  width: 50% !important;
+}
+#menu-primary-menu .navbar-nav .divider {
+  float: left;
+  width: 95% !important;
+}
+#menu-primary-menu #employee-information {
+  background-color: #6e9948;
+}
+#menu-primary-menu #clinical-information {
+  background-color: #994848;
+}
+#menu-primary-menu #departments {
+  background-color: #2e663b;
+}
+#menu-primary-menu #applications {
+  background-color: #99984b;
+}
+#menu-primary-menu #directories {
+  background-color: #4b9999;
+}
+@media (min-width: 1200px) {
+  #menu-primary-menu {
+    width: 1140px;
+  }
+  #menu-primary-menu .navbar-nav {
+    width: 847px;
+  }
+}
+@media (max-width: 1200px) {
+  #menu-primary-menu {
+    width: 940px;
+  }
+  #menu-primary-menu #menu-primary-menu-dropdown {
+    width: 693px;
+  }
+  #menu-primary-menu #menu-primary-menu-dropdown li > a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 991px) {
+  #menu-primary-menu {
+    padding: 51px 15px;
+    width: 720px;
+  }
+  #menu-primary-menu li > a {
+    font-size: 12px;
+    padding: 10px;
+  }
+  #menu-primary-menu #menu-primary-menu-dropdown {
+    margin-left: 24%;
+    height: 380px;
+    width: 531px;
+  }
+  #menu-primary-menu #departments li {
+    width: 36%;
+  }
+  #menu-primary-menu #departments li a {
+    padding: 8px 7px 8px 5px;
+  }
+  #menu-primary-menu #departments .long {
+    width: 64%;
+  }
+}
+@media (max-width: 570px) {
+  #menu-primary-menu li {
+    clear: both;
+    float: none !important;
+    width: 100% !important;
+  }
+}
 /********************* Colors *********************/
 /********************* Spacing *********************/
 body {
   background-color: #f2f2f2;
-  padding-top: 0;
+  padding-top: 100px;
+  -webkit-font-smoothing: antialiased;
 }
 p {
   color: #666666;
@@ -6845,52 +6979,25 @@ a:hover {
   color: #245d79;
 }
 /********************* Header *********************/
+.navbar-fixed-top {
+  background-color: #307ba0;
+  border-bottom: #245d79 solid 5px;
+  height: 75px;
+}
+.navbar-fixed-top .navbar-header .logo {
+  margin: 5px;
+  width: 140px;
+}
+.navbar-collapse.in {
+  overflow-y: visible;
+}
 .fixed {
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
 }
-.navbar-static-top {
-  background-color: #307ba0;
-}
-.navbar-static-top .navbar-header .navbar-brand {
-  transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  -o-transform: scale(0.8);
-}
-.navbar-static-top .navbar-header .navbar-form {
-  float: right;
-  position: relative;
-  top: 55px;
-  left: 345px;
-  width: 500px;
-}
-.navbar-static-top .navbar-header .navbar-form .form-inline {
-  width: auto;
-}
-.navbar-static-top #menu-primary-menu a {
-  color: #ffffff;
-  text-shadow: #666 1px 1px 1px;
-  letter-spacing: 0.3px;
-  font-weight: 300;
-}
-.navbar-static-top #menu-primary-menu .dropdown-menu a {
-  margin: 0 !important;
-}
-.navbar-static-top #menu-primary-menu .dropdown-menu a:hover,
-.navbar-static-top #menu-primary-menu .dropdown-menu a:focus {
-  background-color: #307ba0;
-}
 /********************* Link Icons *********************/
-/*#menu-primary-menu {
-	.menu-item .fa {
-		float: right;
-		position: relative;
-	}
-}*/
 #menu-quick-links .menu-item .fa,
 #menu-popular-links .menu-item .fa {
   float: right;
@@ -7146,15 +7253,27 @@ a:hover {
 .footer a:hover {
   color: #ffffff;
 }
+/********************* Search *********************/
+.desktop-search {
+  margin-top: 10px;
+}
+@media (max-width: 1200px) {
+  .desktop-search {
+    float: right;
+    width: 300px;
+  }
+}
+@media (max-width: 991px) {
+  .desktop-search {
+    margin-top: 0;
+    position: relative;
+    bottom: 47px;
+  }
+}
 @media (max-width: 1200px) {
   .navbar-static-top .navbar-header .navbar-form {
     left: 245px;
     width: 400px;
-  }
-}
-@media (min-width: 1200px) {
-  #menu-primary-menu li a {
-    margin: 0 25px;
   }
 }
 @media (max-width: 991px) {
@@ -7196,35 +7315,147 @@ a:hover {
     background-color: #a2b9c5;
   }
 }
+.scrollable-menu {
+  height: auto;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.navbar-nav {
+  display: inline;
+  margin: 55px;
+  position: relative;
+  top: 8px;
+}
+.btn-menu {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  border-bottom: transparent;
+  border-top: transparent;
+  color: #ffffff;
+  padding: 29px;
+  position: relative;
+  bottom: 8px;
+}
+.btn-menu .fa {
+  font-size: 10px;
+  position: relative;
+  left: 3px;
+}
+x .btn-menu:active,
+.btn-menu:focus,
+.btn-menu:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+.btn-menu:before {
+  content: "Menu";
+}
+#menu-primary-menu li {
+  cursor: pointer;
+}
+#menu-primary-menu #menu-item-29 {
+  border-left: solid 4px #cccccc;
+}
+#menu-primary-menu #menu-item-29:hover,
+#menu-primary-menu #menu-item-29:active,
+#menu-primary-menu #menu-item-29:focus {
+  border-left: solid 4px #cccccc;
+}
+#menu-primary-menu #menu-item-34 {
+  border-left: solid 4px #6e9948;
+}
+#menu-primary-menu #menu-item-34:hover,
+#menu-primary-menu #menu-item-34:active,
+#menu-primary-menu #menu-item-34:focus {
+  border-left: solid 4px #6e9948;
+}
+#menu-primary-menu #menu-item-35 {
+  border-left: solid 4px #994848;
+}
+#menu-primary-menu #menu-item-35:hover,
+#menu-primary-menu #menu-item-35:active,
+#menu-primary-menu #menu-item-35:focus {
+  border-left: solid 4px #994848;
+}
+#menu-primary-menu #menu-item-36 {
+  border-left: solid 4px #2e663b;
+}
+#menu-primary-menu #menu-item-36:hover,
+#menu-primary-menu #menu-item-36:active,
+#menu-primary-menu #menu-item-36:focus {
+  border-left: solid 4px #2e663b;
+}
+#menu-primary-menu #menu-item-491 {
+  border-left: solid 4px #99984b;
+}
+#menu-primary-menu #menu-item-491:hover,
+#menu-primary-menu #menu-item-491:active,
+#menu-primary-menu #menu-item-491:focus {
+  border-left: solid 4px #99984b;
+}
+#menu-primary-menu #menu-item-381 {
+  border-left: solid 4px #4b9999;
+}
+#menu-primary-menu #menu-item-381:hover,
+#menu-primary-menu #menu-item-381:active,
+#menu-primary-menu #menu-item-381:focus {
+  border-left: solid 4px #4b9999;
+}
+#menu-primary-menu .active {
+  background-color: #f5f5f5;
+}
+#menu-primary-menu li > a {
+  margin: 8px 0;
+  padding: 10px 20px;
+}
+@media (max-width: 767px) {
+  .dropdown {
+    overflow-y: scroll;
+  }
+  .dropdown .btn-menu {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    float: right;
+    margin: 15px 16px 8px 12px;
+    padding: 6px 10px;
+    position: relative;
+    bottom: 73px;
+    left: 15px;
+  }
+  .dropdown .mega-menu {
+    padding: 5px;
+    top: 65px;
+    bottom: 0px;
+    width: 100%;
+  }
+  .dropdown .mega-menu li {
+    width: 100%;
+  }
+  .dropdown .mega-menu .mega-menu-dropdown {
+    height: auto;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+  }
+  .dropdown .mega-menu .mega-menu-dropdown .header,
+  .dropdown .mega-menu .mega-menu-dropdown .divider {
+    display: none !important;
+  }
+  .dropdown .mega-menu #employee-information,
+  .dropdown .mega-menu #clinical-information,
+  .dropdown .mega-menu #departments,
+  .dropdown .mega-menu #applications,
+  .dropdown .mega-menu #directories {
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
 @media (min-width: 767px) {
-  /********************* Navigation for all devices larger than 767px *********************/
-  .navbar-collapse .navbar-nav > .active > a,
-  .navbar-collapse .navbar-nav > .active > a:hover,
-  .navbar-collapse .navbar-nav > .active > a:focus {
-    background-color: transparent !important;
-    /*border-bottom: @white solid 2px;*/
-    padding-bottom: 5px;
-  }
-  #menu-primary-menu {
-    background-color: #1f6588;
-    width: 100%;
-    text-align: center;
-    float: none;
-    clear: both;
-  }
-  #menu-primary-menu li {
-    display: inline-block;
-    float: none;
-  }
-  #menu-primary-menu .dropdown-menu {
-    background-color: #1f6588;
-    text-align: left;
-  }
-  #menu-primary-menu .dropdown-menu li {
-    text-align: left;
-    width: 100%;
-  }
-  ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: block;
+  .dropdown #employee-information {
+    display: block !important;
   }
 }

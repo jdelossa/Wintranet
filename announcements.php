@@ -30,7 +30,7 @@ $the_query = new WP_Query($args); ?>
             <?php endif; ?>
     </p>
 
-            <h3><a href="<?= get_page_link($page->ID)?>"><?= $post->post_content; ?></a></h3>
+            <h3><a href="<?= get_page_link($page->ID)?>"><?= $post->post_title; ?></a></h3>
         </div>
     <?php endwhile; ?>
     <!-- end of the loop -->

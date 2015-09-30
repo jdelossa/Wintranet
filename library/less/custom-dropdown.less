@@ -1,0 +1,140 @@
+@red: #994848;
+@dark-green: #2E663B;
+@yellow: #99984B;
+@light-blue: #4B9999;
+@gray: #cccccc;
+
+.scrollable-menu {
+  height: auto;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.navbar-nav {
+  display: inline;
+  margin: 55px;
+  position: relative;
+  top: 8px;
+}
+.btn-menu {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  border-bottom: transparent;
+  border-top: transparent;
+  color: #ffffff;
+  padding: 29px;
+  position: relative;
+  bottom: 8px;
+  .fa {
+    font-size: 10px;
+    position: relative;
+    left: 3px;
+  }x
+  &:active, &:focus, &:hover {
+    background-color: rgba(0,0,0,0.1);
+    color: @white;
+  }
+  &:before {
+    content: "Menu";
+  }
+}
+#menu-primary-menu {
+  li {
+    cursor: pointer;
+  }
+  #menu-item-29 {
+    border-left: solid 4px @gray;
+    &:hover, &:active, &:focus {
+      border-left: solid 4px @gray;
+    }
+  }
+  #menu-item-34 {
+    border-left: solid 4px @hightlight-color;
+    &:hover, &:active, &:focus {
+      border-left: solid 4px @hightlight-color;
+    }
+  }
+  #menu-item-35 {
+    border-left: solid 4px @red;
+    &:hover, &:active, &:focus {
+      border-left: solid 4px @red;
+    }
+  }
+  #menu-item-36 {
+    border-left: solid 4px @dark-green;
+    &:hover, &:active, &:focus {
+      border-left: solid 4px @dark-green;
+    }
+  }
+  #menu-item-491 {
+    border-left: solid 4px @yellow;
+    &:hover, &:active, &:focus {
+      border-left: solid 4px @yellow;
+    }
+  }
+  #menu-item-381 {
+    border-left: solid 4px @light-blue;
+    &:hover, &:active, &:focus {
+      border-left: solid 4px @light-blue;
+    }
+  }
+  .active {
+    background-color: #f5f5f5;
+  }
+  li > a {
+    //border-left: solid 4px @dark-blue;
+    margin: 8px 0;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 767px){
+  .dropdown {
+    overflow-y: scroll;
+    .btn-menu {
+      background-color: transparent;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      float: right;
+      margin: 15px 16px 8px 12px;
+      padding: 6px 10px;
+      position: relative;
+      bottom: 73px;
+      left: 15px;
+    }
+    .mega-menu {
+      padding: 5px;
+      top: 65px;
+      bottom: 0px;
+      width: 100%;
+
+      li {
+        width: 100%;
+      }
+      .mega-menu-dropdown {
+        height: auto;
+        margin-left: 0;
+        position: relative;
+        width: 100%;
+        .header, .divider {
+          display: none !important;
+        }
+
+      }
+      #employee-information, #clinical-information, #departments, #applications, #directories {
+        display: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 767px){
+  .dropdown {
+    #employee-information {
+      display: block !important;
+    }
+  }
+}

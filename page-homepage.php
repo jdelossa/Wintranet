@@ -99,7 +99,7 @@ Template Name: Homepage
 							<div class="col-sm-6">
 
 								<figure>
-									<img class="main-image" src="<?php bloginfo('template_directory'); ?>/images/2.jpg">
+									<img class="main-image" src="<?php bloginfo('template_directory'); ?>/library/img/2.jpg">
 									<figcaption>
 										Need Tech Support? Call the Help Desk at<br><b>x4357 (H-E-L-P)</b> or <b>516-663-3940</b>
 										from outside the hospital.
@@ -111,7 +111,7 @@ Template Name: Homepage
 							<div class="col-sm-6">
 
 								<figure>
-									<img class="main-image" src="<?php bloginfo('template_directory'); ?>/images/1.jpg">
+									<img class="main-image" src="<?php bloginfo('template_directory'); ?>/library/img/1.jpg">
 									<figcaption>
 										Television or Phone Issues? Call TeleHealth at<br><b>x2457</b> during the day or <b>x3940</b> at night.
 									</figcaption>
@@ -128,7 +128,7 @@ Template Name: Homepage
 						<div class="image-center">
 							<div class="col-sm-6">
 								<figure>
-									<img class="main-image" src="<?php bloginfo('template_directory'); ?>/images/3.jpg">
+									<img class="main-image" src="<?php bloginfo('template_directory'); ?>/library/img/3.jpg">
 									<figcaption>
 										Issues with medical equipment?<br> Contact Biomed at <b>x2664</b>.
 									</figcaption>
@@ -137,7 +137,7 @@ Template Name: Homepage
 							
 							<div class="col-sm-6">
 								<figure>
-									<img class="main-image" src="<?php bloginfo('template_directory'); ?>/images/4.jpg">
+									<img class="main-image" src="<?php bloginfo('template_directory'); ?>/library/img/4.jpg">
 									<figcaption>
 										To report a concern, unsafe condition or an idea on<br> 
 										how we can improve safety call <b>x2510</b> or click here.

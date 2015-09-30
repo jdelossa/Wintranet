@@ -1,0 +1,146 @@
+#menu-primary-menu {
+  background-color: @white;
+  padding: 30px;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  // width in media query -> response.less
+  li {
+    float: none;
+    width: 25%;
+    .fa-chevron-right {
+      color: #bbbbbb;
+      float: right;
+      font-size: 10px;
+      position: relative;
+      top: 5px;
+    }
+    a {
+      background-color: @white;
+    }
+  }
+  .menu-active {
+    display: block !important;
+  }
+  .navbar-nav {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: none;
+    height: 356px;
+    list-style-type: none;
+    margin-left: 23%;
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    // width in media query -> response.less
+    li  {
+      display: block;
+      float: left;
+      width: 50%;
+
+      a {
+        background-color: transparent;
+        border-left: none;
+        color: @white;
+        line-height: 25px;
+        font-weight: 500;
+        padding: 8px 30px 8px 10px;
+
+        &:hover, &:active, &:focus {
+          background-color: rgba(0,0,0,0.3);
+          text-decoration: none;
+        }
+      }
+    }
+
+    .header {
+      color: @white;
+      float: left;
+      font-size: 20px;
+      margin-top: 14px;
+      margin-bottom: -5px;
+      width: 50% !important;
+    }
+    .divider {
+      float: left;
+      width: 95% !important;
+    }
+  }
+  #employee-information {
+    background-color: @hightlight-color;
+  }
+  #clinical-information {
+    background-color: @red;
+  }
+  #departments {
+    background-color: @dark-green;
+  }
+  #applications {
+    background-color: @yellow;
+  }
+  #directories {
+    background-color: @light-blue;
+  }
+}
+
+@media (min-width: 1200px){
+  #menu-primary-menu {
+    width: 1140px;
+    .navbar-nav {
+      width: 847px;
+    }
+  }
+}
+
+
+@media (max-width: 1200px){
+  #menu-primary-menu {
+    width: 940px;
+    #menu-primary-menu-dropdown {
+      width: 693px;
+      li > a {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px){
+  #menu-primary-menu {
+    padding: 51px 15px;
+    width: 720px;
+
+    li > a {
+      font-size: 12px;
+      padding: 10px;
+    }
+    #menu-primary-menu-dropdown {
+      margin-left: 24%;
+      height: 380px;
+      width: 531px;
+    }
+    #departments {
+      li {
+        width: 36%;
+        a {
+          padding: 8px 7px 8px 5px;
+        }
+      }
+      .long {
+        width: 64%;
+      }
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  #menu-primary-menu {
+    li {
+      clear: both;
+      float: none !important;
+      width: 100% !important;
+    }
+  }
+}

@@ -378,7 +378,7 @@ class Bootstrap_walker extends Walker_Nav_Menu{
 
     // if the item has children add the caret just before closing the anchor tag
     if ( $args->has_children ) {
-    	$item_output .= '<b class="caret"></b></a>';
+    	$item_output .= '<i class="fa fa-chevron-right"></i></a>';
     }
     else {
     	$item_output .= '</a>';
@@ -402,6 +402,7 @@ class Bootstrap_walker extends Walker_Nav_Menu{
     return parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
   }        
 }
+// End Bootstrap Walker
 
 add_editor_style('editor-style.css');
 
