@@ -6828,6 +6828,20 @@ blockquote.pull-left {
     padding-right: 0;
   }
 }
+/********************* Header *********************/
+.navbar-fixed-top {
+  background-color: #307ba0;
+  border-bottom: #245d79 solid 5px;
+  height: 75px;
+}
+.navbar-fixed-top .navbar-header .logo {
+  margin: 5px;
+  width: 140px;
+}
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+/********************* Mega Menu *********************/
 #menu-primary-menu {
   background-color: #ffffff;
   padding: 30px;
@@ -6965,7 +6979,7 @@ blockquote.pull-left {
 /********************* Spacing *********************/
 body {
   background-color: #f2f2f2;
-  padding-top: 100px;
+  padding-top: 100px !important;
   -webkit-font-smoothing: antialiased;
 }
 p {
@@ -6977,25 +6991,6 @@ section a {
 a,
 a:hover {
   color: #245d79;
-}
-/********************* Header *********************/
-.navbar-fixed-top {
-  background-color: #307ba0;
-  border-bottom: #245d79 solid 5px;
-  height: 75px;
-}
-.navbar-fixed-top .navbar-header .logo {
-  margin: 5px;
-  width: 140px;
-}
-.navbar-collapse.in {
-  overflow-y: visible;
-}
-.fixed {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
 }
 /********************* Link Icons *********************/
 #menu-quick-links .menu-item .fa,
@@ -7343,7 +7338,7 @@ a:hover {
   position: relative;
   left: 3px;
 }
-x .btn-menu:active,
+.btn-menu:active,
 .btn-menu:focus,
 .btn-menu:hover {
   background-color: rgba(0, 0, 0, 0.1);
@@ -7457,5 +7452,20 @@ x .btn-menu:active,
 @media (min-width: 767px) {
   .dropdown #employee-information {
     display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    padding-top: 145px;
+  }
+  .hidden-mobile {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media (min-width: 767px) {
+  .hidden-desktop {
+    display: none;
+    visibility: hidden;
   }
 }
