@@ -73,7 +73,7 @@
 			</div>
 
 				<div class="collapse navbar-collapse navbar-responsive-collapse">
-                    <div class="mega-menu" style="display: block;">
+                    <div class="mega-menu">
                         <?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
                     </div>
 				</div>

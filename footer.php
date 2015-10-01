@@ -40,6 +40,9 @@
         <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/jquery.menu-aim.js"></script>
         <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/menu.js"></script>
 		<script>
+            $('.menu-button').click(function(){
+                $('.mega-menu').css('display', 'block');
+            });
 			$('#clinical-resources').listnav({
 				filterSelector: '.page-header',
 				includeNums: false
