@@ -50,8 +50,10 @@
                 </div>
 
 				<div class="col-md-3">
-                    <button class="btn btn-menu dropdown-toggle" type="button" id="mainMenu" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-chevron-down"></i></button>
-				</div>
+                    <div class="menu-button">
+                        <button class="btn btn-menu dropdown-toggle" type="button" id="mainMenu" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-chevron-down"></i></button>
+                    </div>
+                </div>
 
                 <div class="col-md-6">
                     <div class="navbar-form">
@@ -71,7 +73,7 @@
 			</div>
 
 				<div class="collapse navbar-collapse navbar-responsive-collapse">
-                    <div style="display: block">
+                    <div class="mega-menu" style="display: block;">
                         <?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
                     </div>
 				</div>

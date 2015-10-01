@@ -6844,6 +6844,10 @@ blockquote.pull-left {
 /********************* Mega Menu *********************/
 #menu-primary-menu {
   background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border-radius: 4px;
   padding: 30px;
   position: fixed;
   top: 75px;
@@ -6864,27 +6868,33 @@ blockquote.pull-left {
 }
 #menu-primary-menu li a {
   background-color: #ffffff;
+  color: #262626;
+}
+#menu-primary-menu li a:hover,
+#menu-primary-menu li a:focus,
+#menu-primary-menu li a:active {
+  background-color: #f5f5f5;
 }
 #menu-primary-menu .menu-active {
   display: block !important;
 }
-#menu-primary-menu .navbar-nav {
+#menu-primary-menu .mega-menu-dropdown {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   display: none;
-  height: 356px;
+  height: 359px;
   list-style-type: none;
-  margin-left: 23%;
-  position: absolute;
+  margin-left: 31.5%;
+  position: fixed;
+  top: 74px;
   overflow: hidden;
-  top: 0px;
 }
-#menu-primary-menu .navbar-nav li {
+#menu-primary-menu .mega-menu-dropdown li {
   display: block;
   float: left;
   width: 50%;
 }
-#menu-primary-menu .navbar-nav li a {
+#menu-primary-menu .mega-menu-dropdown li a {
   background-color: transparent;
   border-left: none;
   color: #ffffff;
@@ -6892,13 +6902,13 @@ blockquote.pull-left {
   font-weight: 500;
   padding: 8px 30px 8px 10px;
 }
-#menu-primary-menu .navbar-nav li a:hover,
-#menu-primary-menu .navbar-nav li a:active,
-#menu-primary-menu .navbar-nav li a:focus {
+#menu-primary-menu .mega-menu-dropdown li a:hover,
+#menu-primary-menu .mega-menu-dropdown li a:active,
+#menu-primary-menu .mega-menu-dropdown li a:focus {
   background-color: rgba(0, 0, 0, 0.3);
   text-decoration: none;
 }
-#menu-primary-menu .navbar-nav .header {
+#menu-primary-menu .mega-menu-dropdown .header {
   color: #ffffff;
   float: left;
   font-size: 20px;
@@ -6906,9 +6916,12 @@ blockquote.pull-left {
   margin-bottom: -5px;
   width: 50% !important;
 }
-#menu-primary-menu .navbar-nav .divider {
+#menu-primary-menu .mega-menu-dropdown .divider {
   float: left;
   width: 95% !important;
+}
+#menu-primary-menu .mega-menu-dropdown {
+  background-color: #ccc;
 }
 #menu-primary-menu #employee-information {
   background-color: #6e9948;
@@ -6929,7 +6942,7 @@ blockquote.pull-left {
   #menu-primary-menu {
     width: 1140px;
   }
-  #menu-primary-menu .navbar-nav {
+  #menu-primary-menu .mega-menu-dropdown {
     width: 847px;
   }
 }
@@ -6937,10 +6950,10 @@ blockquote.pull-left {
   #menu-primary-menu {
     width: 940px;
   }
-  #menu-primary-menu #menu-primary-menu-dropdown {
+  #menu-primary-menu .mega-menu-dropdown {
     width: 693px;
   }
-  #menu-primary-menu #menu-primary-menu-dropdown li > a {
+  #menu-primary-menu .mega-menu-dropdown li > a {
     font-size: 12px;
   }
 }
@@ -6953,7 +6966,7 @@ blockquote.pull-left {
     font-size: 12px;
     padding: 10px;
   }
-  #menu-primary-menu #menu-primary-menu-dropdown {
+  #menu-primary-menu .mega-menu-dropdown {
     margin-left: 24%;
     height: 380px;
     width: 531px;
@@ -6979,7 +6992,7 @@ blockquote.pull-left {
 /********************* Spacing *********************/
 body {
   background-color: #f2f2f2;
-  padding-top: 100px !important;
+  padding-top: 95px;
   -webkit-font-smoothing: antialiased;
 }
 p {
@@ -7157,24 +7170,10 @@ a:hover {
 .contact-information .label {
   margin: 10px 5px;
   padding: .6em .8em .6em;
-  /*.fa-phone, .fa-clock-o {
-			padding-right: 5px;
-			font-size: 17px;
-			top: 2px;
-		}
-
-		.fa-location-arrow {
-			font-size: 12px;
-			right: 8px;
-			padding-right: 4px;
-		}*/
 }
 .contact-information .label .fa {
   color: #ffffff;
   font-size: 13px;
-  /*font-size: 14px;
-			position: relative;
-			left: 2px;*/
 }
 .contact-information .label .tooltip-inner {
   max-width: 250px;
@@ -7316,7 +7315,7 @@ a:hover {
   overflow-x: hidden;
   overflow-y: auto;
 }
-.navbar-nav {
+.mega-menu-dropdown {
   display: inline;
   margin: 55px;
   position: relative;
@@ -7406,10 +7405,10 @@ a:hover {
   padding: 10px 20px;
 }
 @media (max-width: 767px) {
-  .dropdown {
+  .dropdown-menu {
     overflow-y: scroll;
   }
-  .dropdown .btn-menu {
+  .dropdown-menu .btn-menu {
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -7420,52 +7419,37 @@ a:hover {
     bottom: 73px;
     left: 15px;
   }
-  .dropdown .mega-menu {
+  .dropdown-menu #menu-primary-menu {
     padding: 5px;
     top: 65px;
     bottom: 0px;
     width: 100%;
   }
-  .dropdown .mega-menu li {
+  .dropdown-menu #menu-primary-menu li {
     width: 100%;
   }
-  .dropdown .mega-menu .mega-menu-dropdown {
+  .dropdown-menu #menu-primary-menu .mega-menu-dropdown {
     height: auto;
     margin-left: 0;
     position: relative;
     width: 100%;
   }
-  .dropdown .mega-menu .mega-menu-dropdown .header,
-  .dropdown .mega-menu .mega-menu-dropdown .divider {
+  .dropdown-menu #menu-primary-menu .mega-menu-dropdown .header,
+  .dropdown-menu #menu-primary-menu .mega-menu-dropdown .divider {
     display: none !important;
   }
-  .dropdown .mega-menu #employee-information,
-  .dropdown .mega-menu #clinical-information,
-  .dropdown .mega-menu #departments,
-  .dropdown .mega-menu #applications,
-  .dropdown .mega-menu #directories {
+  .dropdown-menu #menu-primary-menu #employee-information,
+  .dropdown-menu #menu-primary-menu #clinical-information,
+  .dropdown-menu #menu-primary-menu #departments,
+  .dropdown-menu #menu-primary-menu #applications,
+  .dropdown-menu #menu-primary-menu #directories {
     display: none;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 }
 @media (min-width: 767px) {
-  .dropdown #employee-information {
+  .dropdown-menu #employee-information {
     display: block !important;
-  }
-}
-@media (max-width: 767px) {
-  body {
-    padding-top: 145px;
-  }
-  .hidden-mobile {
-    display: none;
-    visibility: hidden;
-  }
-}
-@media (min-width: 767px) {
-  .hidden-desktop {
-    display: none;
-    visibility: hidden;
   }
 }

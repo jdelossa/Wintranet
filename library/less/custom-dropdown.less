@@ -10,7 +10,7 @@
   overflow-x: hidden;
   overflow-y: auto;
 }
-.navbar-nav {
+.mega-menu-dropdown {
   display: inline;
   margin: 55px;
   position: relative;
@@ -26,18 +26,18 @@
   padding: 29px;
   position: relative;
   bottom: 8px;
-  .fa {
-    font-size: 10px;
-    position: relative;
-    left: 3px;
-  }
-  &:active, &:focus, &:hover {
-    background-color: rgba(0,0,0,0.1);
-    color: @white;
-  }
-  &:before {
-    content: "Menu";
-  }
+    .fa {
+      font-size: 10px;
+      position: relative;
+      left: 3px;
+    }
+    &:active, &:focus, &:hover {
+      background-color: rgba(0,0,0,0.1);
+      color: @white;
+    }
+    &:before {
+      content: "Menu";
+    }
 }
 #menu-primary-menu {
   li {
@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 767px){
-  .dropdown {
+  .dropdown-menu {
     overflow-y: scroll;
     .btn-menu {
       background-color: transparent;
@@ -102,7 +102,7 @@
       bottom: 73px;
       left: 15px;
     }
-    .mega-menu {
+    #menu-primary-menu {
       padding: 5px;
       top: 65px;
       bottom: 0px;
@@ -131,7 +131,7 @@
 }
 
 @media (min-width: 767px){
-  .dropdown {
+  .dropdown-menu {
     #employee-information {
       display: block !important;
     }
