@@ -40,13 +40,21 @@
         <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/jquery.menu-aim.js"></script>
         <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/menu.js"></script>
 		<script>
-            $('.menu-button').click(function(){
-                $('.mega-menu').css('display', 'block');
+            $( "#mainMenu" ).click(function() {
+                $('.mega-menu').toggle();
             });
+
+            $(document).click(function(){
+                $(".mega-menu").hide();
+            });
+
 			$('#clinical-resources').listnav({
 				filterSelector: '.page-header',
 				includeNums: false
 			});
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
 		</script>
 
 	</body>

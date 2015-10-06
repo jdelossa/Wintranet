@@ -23,11 +23,13 @@ body {
 p {
 	color: @primary-text-color;
 }
-section a {
-	text-decoration: underline;
-}
-a, a:hover {
+a {
 	color: darken(@base-color, 10%);
+
+  &:hover {
+    color: darken(@base-color, 30%);
+    text-decoration: none;
+  }
 }
 
 /********************* Link Icons *********************/
@@ -55,7 +57,6 @@ a, a:hover {
 /********************* Widgets *********************/
 
 .widget, .widget_archive {
-
 	.widgettitle {
 		margin-top: @margin-top;
 		color: @shark-color;
@@ -116,11 +117,11 @@ a, a:hover {
 				margin-right: 0;
 				border: 0; 
 				border-radius: 0;
+                text-decoration: none;
 			}
 		}
 
 		.active {
-				
 			a, a:focus, a:hover {
 				background-color: @tab-color;
 				color: @shark-color;
@@ -320,72 +321,5 @@ a, a:hover {
             color: rgba(255,255,255,1);
         }
     }
-}
-/********************* Search *********************/
-.desktop-search {
-  margin-top: 10px;
-}
-
-@media (max-width: 1200px){
-  .desktop-search {
-    float: right;
-    width: 300px;
-  }
-}
-
-@media (max-width: 991px){
-  .desktop-search {
-    margin-top: 0;
-    position: relative;
-    bottom: 47px;
-  }
-}
-@media (max-width: 1200px){
-	.navbar-static-top .navbar-header .navbar-form {
-		left: 245px;
-		width: 400px;
-	}
-}
-
-@media (max-width: 991px){
-	.navbar-static-top .navbar-header .navbar-form {
-		left: 130px;
-		width: 300px;
-	}
-	.nav li a {
-		font-size: 11px;
-	}
-}
-@media (max-width: 767px){
-	/********************* Navigation for all devices smaller than 767px *********************/
-	.navbar-brand {
-		width: 100%;
-		text-align: center;
-		position: relative;
-		bottom: 20px;
-	}
-	.navbar-form {
-		top: 130px !important;
-		left: 0 !important;
-		right: 0;
-		width: 400px;
-		margin: auto auto;
-		position: absolute !important;
-	}
-	.navbar-toggle {
-		top: -150px;
-	}
-	.navbar-collapse {
-		.navbar-nav > .active > a, 
-		.navbar-nav > .active > a:hover, 
-		.navbar-nav > .active > a:focus {
-			background-color: @sub-color;
-		}
-		.navbar-nav > .open > a, 
-		.navbar-nav > .open > a:hover, 
-		.navbar-nav > .open > a:focus {
-			background-color: @tab-color;
-		}
-	}
 }
 

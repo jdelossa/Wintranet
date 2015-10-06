@@ -391,7 +391,7 @@ class Bootstrap_walker extends Walker_Nav_Menu{
         
   function start_lvl(&$output, $depth = 0, $args = Array()) {
     $indent = str_repeat("\t", $depth);
-    $output .= "\n$indent<ul class=\"dropdown-menu mega-menu-dropdown\">\n <li class=\"header\">Name</li> <li role=\"presentation\" class=\"divider\"></li>";
+    $output .= "\n$indent<ul class=\"dropdown-menu mega-menu-dropdown\">\n <li class=\"header\"></li> <li role=\"presentation\" class=\"divider\"></li>";
   }
       
 	function display_element( $element, &$children_elements, $max_depth, $depth=0, $args, &$output ){

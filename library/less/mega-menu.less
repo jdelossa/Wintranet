@@ -1,39 +1,24 @@
-/********************* Header *********************/
-.navbar-fixed-top {
-  background-color: @base-color;
-  border-bottom: darken(@base-color, 10%) solid 5px;
-  height: 75px;
-  .navbar-header {
-    .logo {
-      margin: 5px;
-      width: 140px;
-    }
-  }
-}
-
-.navbar-collapse.in {
-  overflow-y: visible;
-}
 /********************* Mega Menu *********************/
-.mega-menu {
-  display: none;
-}
 #menu-primary-menu {
   background-color: @white;
   border: 1px solid rgba(0,0,0,.15);
   box-shadow: 0 6px 12px rgba(0,0,0,.175);
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
   border-radius: 4px;
-  padding: 30px;
+  display: block;
+  padding: 80px 20px;
   position: fixed;
     top: 75px;
     left: 0;
     right: 0;
   margin: auto;
+  min-width: 160px;
+  z-index: 1000;
   // width in media query -> response.less
 
   li {
     float: none;
+    position: static;
     width: 25%;
     .fa-chevron-right {
       color: #bbbbbb;
@@ -57,25 +42,28 @@
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     display: none;
-    height: 359px;
+    height: 459px;
     list-style-type: none;
-    margin-left: 31.5%;
-    position: fixed;
-      top: 74px;
+    margin-left: 26%;
+    position: absolute;
+      top: -2px;
     overflow: hidden;
 
     li  {
       display: block;
       float: left;
-      width: 50%;
+      margin: 0 2%;
+      width: 46%;
 
       a {
         background-color: transparent;
         border-left: none;
+        border-radius: 3px;
         color: @white;
-        line-height: 25px;
+        line-height: 12px;
         font-weight: 500;
         padding: 8px 30px 8px 10px;
+        margin: 3px 0 0 0;
 
         &:hover, &:active, &:focus {
           background-color: rgba(0,0,0,0.3);
@@ -88,8 +76,8 @@
       color: @white;
       float: left;
       font-size: 20px;
-      margin-top: 14px;
-      margin-bottom: -5px;
+      margin-top: 12px;
+      margin-bottom: 3px;
       width: 50% !important;
     }
     .divider {
@@ -100,26 +88,53 @@
   .mega-menu-dropdown {
     background-color: #ccc;
   }
-  #employee-information {
-    background-color: @hightlight-color;
+  #menu-item-34 {
+    ul {
+      background-color: @hightlight-color;
+      display: block;
+      .header::before {
+        content: 'Employee Information';
+      }
+    }
   }
-  #clinical-information {
-    background-color: @red;
+  #menu-item-35 {
+    ul {
+      background-color: @red;
+      .header::before {
+        content: 'Clinical Information';
+      }
+    }
   }
-  #departments {
-    background-color: @dark-green;
+  #menu-item-36 {
+    ul {
+      background-color: @dark-green;
+      .header::before {
+        content: 'Departments';
+      }
+    }
   }
-  #applications {
-    background-color: @yellow;
+  #menu-item-491 {
+    ul {
+      background-color: @yellow;
+      .header::before {
+        content: 'Applications';
+      }
+    }
   }
-  #directories {
-    background-color: @light-blue;
+  #menu-item-381 {
+    ul {
+      background-color: @light-blue;
+      .header::before {
+        content: 'Winthrop Directories';
+      }
+    }
   }
+
 }
 
 @media (min-width: 1200px){
   #menu-primary-menu {
-    width: 1140px;
+    max-width: 1140px;
     .mega-menu-dropdown {
       width: 847px;
     }
@@ -131,7 +146,7 @@
   #menu-primary-menu {
     width: 940px;
     .mega-menu-dropdown {
-      width: 693px;
+      width: 695px;
       li > a {
         font-size: 12px;
       }
@@ -140,28 +155,63 @@
 }
 
 @media (max-width: 991px){
+  .navbar-fixed-top {
+    .menu-button {
+      float: right;
+    }
+    .navbar-form {
+      display: none;
+    }
+  }
   #menu-primary-menu {
-    padding: 51px 15px;
+    padding: 70px 15px;
     width: 720px;
+
+    li {
+      width: 30%;
+    }
 
     li > a {
       font-size: 12px;
       padding: 10px;
     }
     .mega-menu-dropdown {
-      margin-left: 24%;
-      height: 380px;
-      width: 531px;
+      margin-left: 30%;
+      height: 439px;
+      width: 504px;
     }
-    #departments {
-      li {
-        width: 36%;
-        a {
-          padding: 8px 7px 8px 5px;
+  }
+}
+
+@media (max-width: 767px){
+  #menu-primary-menu {
+    padding: 50px 15px 5px 15px;
+    width: 100%;
+    li {
+      float: left;
+      margin: 6px 0;
+      width: 100%;
+      a {
+        font-size: 12px;
+        padding: 10px;
+        .fa {
+          -ms-transform: rotate(90deg); /* IE 9 */
+          -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+          transform: rotate(90deg);
         }
       }
-      .long {
-        width: 64%;
+    }
+
+    .mega-menu-dropdown {
+      border-radius: 0;
+      height: auto;
+      margin-bottom: 0;
+      margin-left: 0;
+      position: relative;
+        top: 1px;
+      width: 100%;
+      .header, .divider {
+        display: none;
       }
     }
   }

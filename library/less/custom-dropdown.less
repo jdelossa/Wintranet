@@ -4,6 +4,30 @@
 @light-blue: #4B9999;
 @gray: #cccccc;
 
+/********************* Header *********************/
+.navbar-fixed-top {
+  background-color: @base-color;
+  border-bottom: darken(@base-color, 10%) solid 5px;
+  height: 75px;
+  .navbar-header {
+    .logo {
+      margin: 5px;
+      width: 140px;
+    }
+  }
+  .navbar-form {
+    .form-inline {
+      float: right;
+      position: relative;
+      top: 10px;
+    }
+  }
+}
+
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+
 .scrollable-menu {
   height: auto;
   max-height: 100%;
@@ -23,9 +47,9 @@
   border-bottom: transparent;
   border-top: transparent;
   color: #ffffff;
-  padding: 29px;
+  padding: 28px;
   position: relative;
-  bottom: 8px;
+    bottom: 4px;
     .fa {
       font-size: 10px;
       position: relative;
@@ -82,58 +106,48 @@
   .active {
     background-color: #f5f5f5;
   }
-  li > a {
+  li {
     margin: 8px 0;
+  }
+  li > a {
+    margin: 0;
     padding: 10px 20px;
   }
 }
 
 @media (max-width: 767px){
-  .dropdown-menu {
-    overflow-y: scroll;
-    .btn-menu {
-      background-color: transparent;
-      border: 1px solid rgba(0, 0, 0, 0.2);
-      border-radius: 4px;
-      float: right;
-      margin: 15px 16px 8px 12px;
-      padding: 6px 10px;
-      position: relative;
-      bottom: 73px;
-      left: 15px;
-    }
-    #menu-primary-menu {
-      padding: 5px;
-      top: 65px;
-      bottom: 0px;
-      width: 100%;
-
-      li {
-        width: 100%;
-      }
-      .mega-menu-dropdown {
-        height: auto;
-        margin-left: 0;
-        position: relative;
-        width: 100%;
-        .header, .divider {
-          display: none !important;
-        }
-
-      }
-      #employee-information, #clinical-information, #departments, #applications, #directories {
+  #menu-primary-menu {
+    #menu-item-34 {
+      ul {
         display: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
       }
     }
+  }
+  .navbar-fixed-top {
+    .navbar-form {
+      border: none;
+      box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    .mobile {
+      display: block;
+      margin: 15px;
+      position: relative;
+        bottom: 88px;
+      z-index: 1001;
+    }
+  }
+  .btn-menu {
+    bottom: 70px;
+    padding: 25px;
   }
 }
 
 @media (min-width: 767px){
-  .dropdown-menu {
-    #employee-information {
-      display: block !important;
+  .navbar-fixed-top {
+    .mobile {
+      display: none;
     }
   }
 }
+

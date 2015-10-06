@@ -41,7 +41,7 @@
         <div class="navbar navbar-fixed-top">
 			<div class="container">
 
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <div class="navbar-header">
                         <a title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">
                             <img src="<?php bloginfo('template_directory'); ?>/library/img/logo.png" alt="Winthrop University Hospital" class="logo"/>
@@ -49,18 +49,18 @@
                     </div>
                 </div>
 
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-9">
                     <div class="menu-button">
                         <button class="btn btn-menu dropdown-toggle" type="button" id="mainMenu" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-chevron-down"></i></button>
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <div class="navbar-form">
                         <?php //if(of_get_option('search_bar', '1')) {?>
                         <form class="form-inline" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
                             <div class="form-group">
-                                <div class="input-group desktop-search hidden-mobile">
+                                <div class="input-group">
                                     <input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search the Intranet ... ','wpbootstrap'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
                                     <div class="input-group-addon"><i class="fa fa-search"></i></div>
                                 </div>
@@ -69,20 +69,26 @@
                         <?php //} ?>
                     </div>
                 </div>
-
 			</div>
 
-				<div class="collapse navbar-collapse navbar-responsive-collapse">
-                    <div class="mega-menu">
-                        <?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
-                    </div>
-				</div>
+            <div class="mega-menu" style="display: none">
+                <div class="navbar-form mobile">
+                    <?php //if(of_get_option('search_bar', '1')) {?>
+                    <form class="form-inline" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search the Intranet ... ','wpbootstrap'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
+                                <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                            </div>
+                        </div>
+                    </form>
+                    <?php //} ?>
+                </div>
+                <?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+            </div>
 
         </div> <!-- end .navbar -->
 
-
-			
-		
 		</header> <!-- end header -->
 		
 		<div class="container">

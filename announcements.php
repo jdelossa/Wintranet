@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
     $args = array(
@@ -41,7 +40,7 @@ $the_query = new WP_Query($args); ?>
 <?php else : ?>
     <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
-=======
+
 <?php
 
     $args = array(
@@ -83,4 +82,4 @@ $the_query = new WP_Query($args); ?>
 <?php else : ?>
     <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
->>>>>>> 5ea80ece7b79ceb24af41be9aec95889d3cf2f3c
+
