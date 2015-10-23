@@ -1,127 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="063a89d4-9021-492e-b0c7-3f7d37baf759" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Wintranet.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/js/jquery.menu-aim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1.jpg" afterPath="$PROJECT_DIR$/library/img/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1col.png" afterPath="$PROJECT_DIR$/library/img/1col.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2.jpg" afterPath="$PROJECT_DIR$/library/img/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2cl.png" afterPath="$PROJECT_DIR$/library/img/2cl.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2cr.png" afterPath="$PROJECT_DIR$/library/img/2cr.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/3.jpg" afterPath="$PROJECT_DIR$/library/img/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/320press_mini.png" afterPath="$PROJECT_DIR$/library/img/320press_mini.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/4.jpg" afterPath="$PROJECT_DIR$/library/img/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/library/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/admin.php" afterPath="$PROJECT_DIR$/library/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/affix.js" afterPath="$PROJECT_DIR$/library/js/affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/alert.js" afterPath="$PROJECT_DIR$/library/js/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/alerts.less" afterPath="$PROJECT_DIR$/library/less/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/announcements.php" afterPath="$PROJECT_DIR$/announcements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive.php" afterPath="$PROJECT_DIR$/archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attachment.php" afterPath="$PROJECT_DIR$/attachment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author.php" afterPath="$PROJECT_DIR$/author.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/badges.less" afterPath="$PROJECT_DIR$/library/less/badges.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/bones.php" afterPath="$PROJECT_DIR$/library/bones.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/bootstrap-ck.js" afterPath="$PROJECT_DIR$/library/js/bootstrap-ck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/css/bootstrap.css" afterPath="$PROJECT_DIR$/library/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/bootstrap.js" afterPath="$PROJECT_DIR$/library/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/bootstrap.less" afterPath="$PROJECT_DIR$/library/less/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/bootstrap.min-ck.js" afterPath="$PROJECT_DIR$/library/js/bootstrap.min-ck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/library/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/library/less/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/button-groups.less" afterPath="$PROJECT_DIR$/library/less/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/button.js" afterPath="$PROJECT_DIR$/library/js/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/buttons.less" afterPath="$PROJECT_DIR$/library/less/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/carousel.js" afterPath="$PROJECT_DIR$/library/js/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/carousel.less" afterPath="$PROJECT_DIR$/library/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/close.less" afterPath="$PROJECT_DIR$/library/less/close.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/code.less" afterPath="$PROJECT_DIR$/library/less/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/collapse.js" afterPath="$PROJECT_DIR$/library/js/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments.php" afterPath="$PROJECT_DIR$/comments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/component-animations.less" afterPath="$PROJECT_DIR$/library/less/component-animations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/dropdown-ck.js" afterPath="$PROJECT_DIR$/library/js/dropdown-ck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/dropdown.js" afterPath="$PROJECT_DIR$/library/js/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/dropdowns.less" afterPath="$PROJECT_DIR$/library/less/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor-style.css" afterPath="$PROJECT_DIR$/editor-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/forms.less" afterPath="$PROJECT_DIR$/library/less/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/glyphicons.less" afterPath="$PROJECT_DIR$/library/less/glyphicons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/fonts/glyphiconshalflings-regular.svg" afterPath="$PROJECT_DIR$/library/fonts/glyphiconshalflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/grid.less" afterPath="$PROJECT_DIR$/library/less/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image.php" afterPath="$PROJECT_DIR$/image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/input-groups.less" afterPath="$PROJECT_DIR$/library/less/input-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/intranet.less" afterPath="$PROJECT_DIR$/library/less/intranet.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/libs/jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/library/js/libs/jquery-1.7.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/jquery-listnav.min.js" afterPath="$PROJECT_DIR$/library/js/jquery-listnav.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/jumbotron.less" afterPath="$PROJECT_DIR$/library/less/jumbotron.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/labels.less" afterPath="$PROJECT_DIR$/library/less/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/list-group.less" afterPath="$PROJECT_DIR$/library/less/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/log.txt" afterPath="$PROJECT_DIR$/library/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/css/login.css" afterPath="$PROJECT_DIR$/library/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/media.less" afterPath="$PROJECT_DIR$/library/less/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/mixins.less" afterPath="$PROJECT_DIR$/library/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/modal.js" afterPath="$PROJECT_DIR$/library/js/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/modals.less" afterPath="$PROJECT_DIR$/library/less/modals.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/modernizr.full.min.js" afterPath="$PROJECT_DIR$/library/js/modernizr.full.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/navbar.less" afterPath="$PROJECT_DIR$/library/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/navs.less" afterPath="$PROJECT_DIR$/library/less/navs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/css/normalize.css" afterPath="$PROJECT_DIR$/library/css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/normalize.less" afterPath="$PROJECT_DIR$/library/less/normalize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-departments.php" afterPath="$PROJECT_DIR$/page-departments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-full-width.php" afterPath="$PROJECT_DIR$/page-full-width.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-homepage.php" afterPath="$PROJECT_DIR$/page-homepage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-left-sidebar.php" afterPath="$PROJECT_DIR$/page-left-sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/pager.less" afterPath="$PROJECT_DIR$/library/less/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/pagination.less" afterPath="$PROJECT_DIR$/library/less/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/panels.less" afterPath="$PROJECT_DIR$/library/less/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/popover.js" afterPath="$PROJECT_DIR$/library/js/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/popovers.less" afterPath="$PROJECT_DIR$/library/less/popovers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/print.less" afterPath="$PROJECT_DIR$/library/less/print.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/progress-bars.less" afterPath="$PROJECT_DIR$/library/less/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/library/less/responsive-utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/scaffolding.less" afterPath="$PROJECT_DIR$/library/less/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/scripts.js" afterPath="$PROJECT_DIR$/library/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/scrollspy.js" afterPath="$PROJECT_DIR$/library/js/scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchform.php" afterPath="$PROJECT_DIR$/searchform.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/libs/selectivizr-min.js" afterPath="$PROJECT_DIR$/library/js/libs/selectivizr-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/shortcodes.php" afterPath="$PROJECT_DIR$/library/shortcodes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sidebar-sidebar2.php" afterPath="$PROJECT_DIR$/sidebar-sidebar2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sidebar-sidebar3.php" afterPath="$PROJECT_DIR$/sidebar-sidebar3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sidebar.php" afterPath="$PROJECT_DIR$/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-staff-list-custom.css" afterPath="$PROJECT_DIR$/simple-staff-list-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single.php" afterPath="$PROJECT_DIR$/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/tab.js" afterPath="$PROJECT_DIR$/library/js/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/tables.less" afterPath="$PROJECT_DIR$/library/less/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/css/theme.css" afterPath="$PROJECT_DIR$/library/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/theme.less" afterPath="$PROJECT_DIR$/library/less/theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/thumbnails.less" afterPath="$PROJECT_DIR$/library/less/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/tooltip.js" afterPath="$PROJECT_DIR$/library/js/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/tooltip.less" afterPath="$PROJECT_DIR$/library/less/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top-stories.php" afterPath="$PROJECT_DIR$/top-stories.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/js/transition.js" afterPath="$PROJECT_DIR$/library/js/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/type.less" afterPath="$PROJECT_DIR$/library/less/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/utilities.less" afterPath="$PROJECT_DIR$/library/less/utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/variables.less" afterPath="$PROJECT_DIR$/library/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/wells.less" afterPath="$PROJECT_DIR$/library/less/wells.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/wp.less" afterPath="$PROJECT_DIR$/library/less/wp.less" />
-    </list>
+    <list default="true" id="063a89d4-9021-492e-b0c7-3f7d37baf759" name="Default" comment="" />
     <ignored path="Wintranet.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,64 +24,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="372" column="0" selection-start="13181" selection-end="13181" vertical-scroll-proportion="0.0" vertical-offset="5580" max-vertical-offset="7380">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5475" max-vertical-offset="7290">
+              <caret line="372" column="0" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bones.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bones.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/bones.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="4" selection-start="7333" selection-end="7333" vertical-scroll-proportion="0.0" vertical-offset="2910" max-vertical-offset="3375">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2790" max-vertical-offset="3255">
+              <caret line="194" column="4" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="51" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="2100">
+            <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="990">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="100" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1380">
+            <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1515">
+              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intranet.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="intranet.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/less/intranet.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="23" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="7590">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4965">
+              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/less/bootstrap.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="18" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="975">
+            <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1020">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.20431328" vertical-offset="0" max-vertical-offset="881">
+            <state vertical-scroll-proportion="0.20737328" vertical-offset="0" max-vertical-offset="868">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -214,23 +104,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/library/less/intranet.less" />
-        <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/library/less/bootstrap.less" />
-        <option value="$PROJECT_DIR$/style.css" />
-      </list>
-    </option>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="751" />
-    <option name="y" value="22" />
-    <option name="width" value="1128" />
+    <option name="x" value="687" />
+    <option name="y" value="23" />
+    <option name="width" value="1230" />
     <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -247,7 +128,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -370,7 +251,7 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -379,16 +260,20 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="063a89d4-9021-492e-b0c7-3f7d37baf759" name="Default" comment="" />
       <created>1432052778718</created>
+      <option name="number" value="Default" />
       <updated>1432052778718</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="751" y="22" width="1128" height="991" extended-state="0" />
+    <frame x="687" y="23" width="1230" height="991" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -396,23 +281,27 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -426,212 +315,294 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="372" column="0" selection-start="13181" selection-end="13181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7380">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5475" max-vertical-offset="7290">
+          <caret line="372" column="0" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/bones.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="4" selection-start="7333" selection-end="7333" vertical-scroll-proportion="0.0" vertical-offset="2910" max-vertical-offset="3375">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2790" max-vertical-offset="3255">
+          <caret line="194" column="4" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="2100">
+        <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="990">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="100" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1380">
+        <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1515">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/less/intranet.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="23" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="7590">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4965">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/less/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="975">
+        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1020">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="0" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="270">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="372" column="0" selection-start="13181" selection-end="13181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7380">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7380">
+          <caret line="372" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/bones.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="4" selection-start="7333" selection-end="7333" vertical-scroll-proportion="0.0" vertical-offset="2910" max-vertical-offset="3375">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2910" max-vertical-offset="3375">
+          <caret line="194" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="2100">
+        <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="2100">
+          <caret line="41" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="100" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1380">
+        <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1380">
+          <caret line="47" column="100" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/less/intranet.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="23" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="7590">
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="7590">
+          <caret line="76" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/less/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="975">
+        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="975">
+          <caret line="56" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="0" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="270">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="270">
+          <caret line="4" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="372" column="0" selection-start="13181" selection-end="13181" vertical-scroll-proportion="0.0" vertical-offset="5580" max-vertical-offset="7275">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7380">
+          <caret line="372" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/bones.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="4" selection-start="7333" selection-end="7333" vertical-scroll-proportion="0.0" vertical-offset="2910" max-vertical-offset="3375">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2910" max-vertical-offset="3375">
+          <caret line="194" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="2100">
+        <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="2100">
+          <caret line="41" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="100" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1380">
+        <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1380">
+          <caret line="47" column="100" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/less/intranet.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="23" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="7590">
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="7590">
+          <caret line="76" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/less/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="945">
+        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="975">
+          <caret line="56" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="270">
+          <caret line="4" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5580" max-vertical-offset="7275">
+          <caret line="372" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/bones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2910" max-vertical-offset="3375">
+          <caret line="194" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="2100">
+          <caret line="41" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1380">
+          <caret line="47" column="100" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/less/intranet.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="7590">
+          <caret line="76" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/less/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="945">
+          <caret line="37" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/js/jquery-listnav.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="881" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="881">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/js/jquery.menu-aim.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/js/dropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3691275" vertical-offset="330" max-vertical-offset="2400" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4935">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="372" column="0" selection-start="13181" selection-end="13181" vertical-scroll-proportion="0.0" vertical-offset="5580" max-vertical-offset="7380">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5475" max-vertical-offset="7290">
+          <caret line="372" column="0" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/bones.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="4" selection-start="7333" selection-end="7333" vertical-scroll-proportion="0.0" vertical-offset="2910" max-vertical-offset="3375">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2790" max-vertical-offset="3255">
+          <caret line="194" column="4" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="2100">
+        <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="990">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="100" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1380">
+        <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1515">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/less/intranet.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="23" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="7590">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4965">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/less/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="975">
+        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1020">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.20431328" vertical-offset="0" max-vertical-offset="881">
+        <state vertical-scroll-proportion="0.20737328" vertical-offset="0" max-vertical-offset="868">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
