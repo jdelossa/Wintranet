@@ -7051,6 +7051,9 @@ a:hover {
   color: #0d212a;
   text-decoration: none;
 }
+#content {
+  background-color: #ffffff;
+}
 /********************* Link Icons *********************/
 #menu-quick-links .menu-item .fa,
 #menu-popular-links .menu-item .fa {
@@ -7184,6 +7187,7 @@ a:hover {
   display: inline-block;
   width: 100%;
   border-bottom: #eeeeee 1px solid;
+  font-size: 12px;
 }
 .content-block .links a:after {
   font-family: FontAwesome;
@@ -7207,16 +7211,6 @@ a:hover {
 }
 .page-header h1 {
   color: #2c2c2d;
-}
-.contact-information {
-  display: inline-block;
-  right: 0;
-  position: absolute;
-  top: 25px;
-}
-.contact-information .label {
-  margin: 10px 5px;
-  padding: .6em .8em .6em;
 }
 .contact-information .label .fa {
   color: #ffffff;

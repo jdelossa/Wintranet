@@ -18,51 +18,6 @@ Template Name: Departments Page
 					
 					<div id="dept" class="page-header"><span class="dept-title">Department of <?php the_title(); ?></span>
 
-					<div class="contact-information">
-
-						<!-- ADD ALL LABELS FOR THIS SECTION-->
-
-						<?php if (types_render_field("dept-email", array('raw' => 'true'))) { ?>
-							<span class="label label-primary">
-								<a href="mailto:<?= types_render_field("dept-email", array('raw' => 'true')); ?>" data-toggle="tooltip" title="Email: <?= types_render_field("dept-email", array('raw' => 'true')); ?>">
-									<i class="fa fa-envelope"></i>
-								</a>
-							</span>
-						<?php } ?>
-
-						<?php if (types_render_field("dept-phone", array('raw' => 'true'))) { ?>
-							<span class="label label-success">
-								<a href="tel:<?= types_render_field("dept-phone", array('raw' => 'true')); ?>" data-toggle="tooltip" title="Phone: <?= types_render_field("dept-phone", array('raw' => 'true')); ?>">
-									<i class="fa fa-phone"></i>
-								</a>
-							</span>
-						<?php } ?>
-
-						<?php if (types_render_field("dept-fax", array('raw' => 'true'))) { ?>
-							<span class="label label-info">
-								<a href="fax:<?= types_render_field("dept-fax", array('raw' => 'true')); ?>" data-toggle="tooltip" title="Fax: <?= types_render_field("dept-fax", array('raw' => 'true')); ?>">
-									<i class="fa fa-fax"></i>
-								</a>
-							</span>
-						<?php } ?>
-
-						<?php if (types_render_field("dept-hours", array('raw' => 'true'))) { ?>
-							<span class="label label-warning">
-								<a href="#" data-toggle="tooltip" title="<?= types_render_field("dept-hours", array('raw' => 'true')); ?>">
-									<i class="fa fa-clock-o"></i>
-								</a>
-							</span>
-						<?php } ?>
-
-						<?php if (types_render_field("dept-location", array('raw' => 'true'))) { ?>
-							<span class="label label-danger">
-								<a href="#" data-toggle="tooltip" title="<?= types_render_field("dept-location", array('raw' => 'true')); ?>">
-									<i class="fa fa-location-arrow"></i>
-								</a>
-							</span>
-						<?php } ?>
-
-					</div>
 					</div>
 				
 				</header> <!-- end article header -->
@@ -134,33 +89,12 @@ Template Name: Departments Page
 
 						<?php if (types_render_field("dept-links", array('raw' => 'true'))) { ?>
 							<div class="col-sm-6">
-								<div class="content-block">
-									<!-- Departmental Links -->
-									<div class="links">
-										<?php if (types_render_field("dept-links", array('raw' => 'true'))) { ?>
-											<h4>Departmental Links</h4>
-										<?php } ?>
-										<?php if (types_render_field("dept-links", array('raw' => 'true'))) { ?>
-											<p><?= types_render_field("dept-links", array('raw' => 'true')); ?></p>
-										<?php } ?>
-									</div>
-								</div>
 							</div>
 						<?php } ?>
 
 						<?php if (types_render_field("dept-pages", array('raw' => 'true'))) { ?>
 							<div class="col-sm-6">
-								<div class="content-block">
-									<div class="links">
-										<!-- Departmental Pages -->
-										<?php if (types_render_field("dept-pages", array('raw' => 'true'))) { ?>
-											<h4>Departmental Pages</h4>
-										<?php } ?>
-										<?php if (types_render_field("dept-pages", array('raw' => 'true'))) { ?>
-											<p><?= types_render_field("dept-pages", array('raw' => 'true')); ?></p>
-										<?php } ?>
-									</div>
-								</div>
+
 							</div>
 						<?php } ?>
 
@@ -214,7 +148,7 @@ Template Name: Departments Page
 
 		<div class="col-md-3 clearfix">
 			
-			<?php get_sidebar('sidebar3'); // get sidebar 3 ?>
+			<?php get_sidebar('sidebar4'); // get sidebar 4 - Sidebar for departments ?>
 
 		</div>
 

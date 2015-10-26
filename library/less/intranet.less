@@ -3,7 +3,7 @@
 @background-color: #f2f2f2;
 @base-color: #307ba0;
 @sub-color: #1f6588;
-@hightlight-color: #6e9948;
+@highlight-color: #6e9948;
 @primary-text-color: #666;
 @tab-color: #a2b9c5;
 @shark-color: #2c2c2d; // header color, footer color
@@ -32,6 +32,10 @@ a {
   }
 }
 
+#content {
+  background-color: @white;
+}
+
 /********************* Link Icons *********************/
 
 #menu-quick-links, #menu-popular-links {
@@ -39,7 +43,7 @@ a {
 		float: right;
 		top: 15px;
 		position: relative;
-		color: @hightlight-color;
+		color: @highlight-color;
 	}
 }
 /********************* Sidebar *********************/
@@ -77,7 +81,7 @@ a {
 	}
 	.btn {
 		display: block;
-		background-color: @hightlight-color;
+		background-color: @highlight-color;
 		color: @white;
 	}
 }
@@ -136,7 +140,7 @@ a {
 		.announcements {
 			h3, a, p {
 				text-align: center;
-				color: @hightlight-color !important;
+				color: @highlight-color !important;
 			}
 			.cat-dept {
 				color: @shark-color;
@@ -154,7 +158,7 @@ a {
 		a.top-links {
 			text-align: right;
 			display: block;
-			color: @hightlight-color;
+			color: @highlight-color;
 		}
 	}
 }
@@ -186,6 +190,7 @@ a {
 			display: inline-block;
 			width: 100%;
 			border-bottom: @link-border-color 1px solid;
+		  	font-size: 12px;
 
 			&:after {
 				font-family: FontAwesome;
@@ -193,7 +198,7 @@ a {
 				margin-left: 10px;
 				float: right;
 				position: relative;
-				color: @hightlight-color;
+				color: @highlight-color;
 			}
 		}
 	}
@@ -219,14 +224,11 @@ a {
 	}
 } 
 .contact-information {
-	display: inline-block;
-	right: 0;
-	position: absolute;
-	top: 25px;
+
 
 	.label {
-		margin: 10px 5px;
-		padding: .6em .8em .6em;
+		//margin: 10px 5px;
+		//padding: .6em .8em .6em;
 
 		.fa {
 			color: @white;
