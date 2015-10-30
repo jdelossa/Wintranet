@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="063a89d4-9021-492e-b0c7-3f7d37baf759" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sidebar-sidebar4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/css/bootstrap.css" afterPath="$PROJECT_DIR$/library/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/custom-dropdown.less" afterPath="$PROJECT_DIR$/library/less/custom-dropdown.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/intranet.less" afterPath="$PROJECT_DIR$/library/less/intranet.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/less/mega-menu.less" afterPath="$PROJECT_DIR$/library/less/mega-menu.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-departments.php" afterPath="$PROJECT_DIR$/page-departments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="063a89d4-9021-492e-b0c7-3f7d37baf759" name="Default" comment="" />
     <ignored path="Wintranet.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -107,8 +99,8 @@
       <file leaf-file-name="page-departments.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-departments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3488372">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.14687882">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -149,6 +141,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -323,7 +318,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="687" y="23" width="1230" height="991" extended-state="0" />
+    <frame x="687" y="23" width="1230" height="991" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -787,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page-departments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3488372">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.14687882">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
           <folding />
         </state>
       </provider>
