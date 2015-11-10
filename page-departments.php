@@ -94,7 +94,6 @@ Template Name: Departments Page
 
 						<?php if (types_render_field("dept-pages", array('raw' => 'true'))) { ?>
 							<div class="col-sm-6">
-
 							</div>
 						<?php } ?>
 
